@@ -1,0 +1,16 @@
+-main App
+-lib abv
+-lib hscript
+-D hscriptPos
+-D haxeJSON
+-neko bin/app.n
+#-cmd neko bin/app.n
+
+#--next
+#-main App
+#-lib abv
+#-lib hscript
+#-D hscriptPos
+#-D haxeJSON
+#-cpp bin/hxshell
+

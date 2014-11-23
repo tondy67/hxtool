@@ -1,0 +1,19 @@
+// http://lib.haxe.org/p/hscript
+
+//clear();
+echo("Platform: "+uname()+"\n");
+var d = "toto";
+var sw = 5;
+switch(sw){
+	case 5: echo("switch: " + 5 +"\n");
+}
+var s = ls("bin","R"); 
+echo(s+"\n");
+//mv("tt", "t/tt");
+//ln("t/tt","tt");
+//d = cat("data/readme.txt");
+function update()
+{
+	echo("update: "+time()+"\n");
+}
+echo(d+"\n");
