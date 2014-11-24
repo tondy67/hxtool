@@ -1,16 +1,15 @@
-package;
+package hxshell;
 
 import sys.io.*;
-import abv.Tools;
 import abv.io.SH;
 
 using StringTools;
-using abv.Tools;
+using abv.lib.Tools;
 
 /**
- * hxshell
+ * Hxshell mimics Bash Shell
  **/
-class App{
+class Hxshell{
 
 	var args:Array<String>;
 	
@@ -40,12 +39,5 @@ var script = parseHxs("data/script.hxs");
 		return r;
 	}// parseHxs()
 	
-	public static function main() 
-	{
- 		var a = new App();
- 		for(m in Tools.getLog())Sys.println(m);
-	}// main()
-
-
-}// App
+}// hxshell.Hxshell
 

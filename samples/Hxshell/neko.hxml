@@ -1,4 +1,5 @@
 -main App
+-lib hxshell
 -lib abv
 -lib hscript
 -D hscriptPos
@@ -8,6 +9,7 @@
 
 #--next
 #-main App
+#-lib hxshell
 #-lib abv
 #-lib hscript
 #-D hscriptPos
