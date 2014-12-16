@@ -1,6 +1,6 @@
-hxshell
+hxtool
 =======
 
-hxshell mimics bash shell
+hxtool mimics bash shell
 
 **under development!**
