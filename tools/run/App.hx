@@ -3,25 +3,26 @@ package;
 import hxtool.Hxtool;
 import abv.AM;
 
-using abv.CT;
+using abv.CR;
+using abv.sys.ST;
 
 /**
  * App
  **/
 class App extends AM{
 
-	var colorSupport = true;
+	var colors = true;
 	
 	public function new()
 	{
 		super(); 
  		var tool = new Hxtool(); 
-trace(AM.args());
+//trace(AM.args());
 		if(AM.args().length > 0){
 			tool.parse();
 		}else{
-			help().print();
-			exit();
+			CR.print(help(),INFO);
+			AM.exit();
 		}
 
 	}// new()
@@ -36,9 +37,9 @@ trace(AM.args());
 
 	public static function main() 
 	{
-		AM.verbose = 1;
+		AM.verbose = INFO;
  		var app = new App();
-		CT.printLog();
+		CR.printLog();
 	}// main()
 
 }// App
