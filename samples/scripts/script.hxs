@@ -1,20 +1,23 @@
+#!/bin/hxtool
 // http://lib.haxe.org/p/hscript
-
-//clear();
-print("script.hxs");
-print("Platform: "+uname());
-var d = "това е toto";
-var sw = 5;
-switch(sw){
-	case 5: echo("switch: " + 5 +"\n");
-}
-var s = ls(".","R"); 
-print(s);
-//mv("tt", "t/tt");
-//ln("t/tt","tt");
-//d = cat("data/readme.txt");
 function update()
 {
 	print("update: "+time());
 }
+
+//clear();
+print("Start script.. .");
+print("Platform: "+uname());
+var d = "това е toto";
+var sw = 5;
+switch(sw){
+	case 5: update();//echo("switch: " + 5 +"\n");
+}
+//var s = ls(".","R"); print(s);
+//mv("tt", "t/tt");
+//ln("t/tt","tt");
+//d = cat("data/readme.txt");
+print(exec("ls"));
 echo(d+"\n");
+print(pwd());
+print(args[0]);

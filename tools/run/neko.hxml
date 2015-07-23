@@ -1,9 +1,0 @@
--main App
--lib hxtool
--lib abv
--lib hscript
--D hscriptPos
--D haxeJSON
--neko ../../run.n
--cmd neko ../../run.n ../../samples/scripts/script.hxs
-

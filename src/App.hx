@@ -1,6 +1,5 @@
 package;
 
-import hxtool.Hxtool;
 import abv.AM;
 
 using abv.CR;
@@ -11,14 +10,13 @@ using abv.sys.ST;
  **/
 class App extends AM{
 
-	var colors = true;
-	
 	public function new()
 	{
 		super(); 
  		var tool = new Hxtool(); 
-//trace(AM.args());
+
 		if(AM.args().length > 0){
+//trace(AM.args());
 			tool.parse();
 		}else{
 			CR.print(help(),INFO);
@@ -39,7 +37,7 @@ class App extends AM{
 	{
 		AM.verbose = INFO;
  		var app = new App();
-		CR.printLog();
+//		CR.printLog();
 	}// main()
 
 }// App
