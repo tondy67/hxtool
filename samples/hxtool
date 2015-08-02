@@ -1,6 +1,0 @@
-#!/bin/bash
-#
-#
-
-haxelib run hxtool $1
-

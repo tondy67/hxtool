@@ -1,4 +1,4 @@
--main App
+-main Hxtool
 -cp src
 -lib abv
 -lib hscript

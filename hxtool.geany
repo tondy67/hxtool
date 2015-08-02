@@ -1,0 +1,49 @@
+[file_prefs]
+final_new_line=true
+ensure_convert_new_lines=true
+strip_trailing_spaces=false
+replace_tabs=false
+
+[indentation]
+indent_width=4
+indent_type=1
+indent_hard_tab_width=8
+detect_indent=false
+detect_indent_width=false
+indent_mode=2
+
+[project]
+name=hxtool
+base_path=/home/tondy/dev/hxtool/
+description=
+file_patterns=*.hx,;*.css,;*.xml,;*.txt,;*.hxml;
+
+[long line marker]
+long_line_behaviour=1
+long_line_column=72
+
+[files]
+current_page=0
+FILE_NAME_0=5213;Haxe;0;EUTF-8;1;1;0;%2Fhome%2Ftondy%2Fdev%2Fhxtool%2Fsrc%2FSH.hx;0;4
+FILE_NAME_1=534;Haxe;0;EUTF-8;1;1;0;%2Fhome%2Ftondy%2Fdev%2Fabv%2Fabv%2Fsys%2Fcpp%2FAM.hx;0;4
+FILE_NAME_2=45;Haxe;0;EUTF-8;1;1;0;%2Fhome%2Ftondy%2Fdev%2Fabv%2Fabv%2Fsys%2Fcpp%2FST.hx;0;4
+FILE_NAME_3=0;Haxe;0;EUTF-8;1;1;0;%2Fhome%2Ftondy%2Fdev%2Fhxtool%2Fsrc%2FHxtool.hx;0;4
+FILE_NAME_4=488;Haxe;0;EUTF-8;1;1;0;%2Fhome%2Ftondy%2Fdev%2Fhxtool%2Fsamples%2Fscript.hxs;0;4
+
+[VTE]
+last_dir=/home/tondy/dev/hxtool
+
+[build-menu]
+HaxeFT_00_LB=_Compile
+HaxeFT_00_CM=haxe  neko.hxml
+HaxeFT_00_WD=%p
+filetypes=Haxe;None;
+EX_00_LB=_Execute
+EX_00_CM=bin/hxtool samples/script.hxs
+EX_00_WD=%p
+EX_01_LB=
+EX_01_CM=
+EX_01_WD=
+NoneFT_00_LB=Build NEKO
+NoneFT_00_CM=haxe neko.html
+NoneFT_00_WD=%p

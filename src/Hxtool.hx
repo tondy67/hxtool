@@ -1,28 +1,34 @@
 package;
-
-import abv.AM;
-import abv.io.SH;
-
-using abv.CR;
-using abv.sys.ST;
-using abv.lib.TP;
-
 /**
  * Hxtool mimics Bash Shell
  **/
-class Hxtool{
+import abv.AM;
+import abv.io.SH;
 
-	var args:Array<String> = AM.args();
-	
+using abv.lib.TP;
+using abv.lib.CR;
+using abv.sys.ST;
+
+class Hxtool extends AM{
+
 	public function new()
 	{
-		CR.print("start",DEBUG); 
+		AM.verbose = CR.INFO;
+		super(); 
+
+		if(AM.args.length > 0){
+			parse();
+		}else{
+			CR.print(CR.INFO+help());
+			AM.exit();
+		}
+
 	}// new()
 
-	public function parse()
+	function parse()
 	{
-		if(args[0].good()){
-			var path = args[0]; 
+		if(AM.args[0].good()){
+			var path = AM.args[0]; 
 //			if(args[1].good())path = args[1] + path;  trace(args);
 			var script = path.open(); 
 			var lines = script.splitt("\n");
@@ -32,15 +38,25 @@ class Hxtool{
 			}
 			script = tmp.join("\n");  
 			if(script.good("err: no script")){ 
-				SH.args = args;
+				SH.args = AM.args;
 				try SH.execute(script) catch(m:Dynamic){trace(m);}
 			}
 		}	
 	}// parse()
 
-	function parseArgs()
+	override function help(opt="")
 	{
-	}// parseArgs()
+		var r = 'Usage:\n hxtool script.hxs';
 
-}// hxtool.Hxtool
+		return r;
+	}// help()
+
+
+	public static function main() 
+	{
+ 		var app = new Hxtool();
+//		CR.printLog();
+	}// main()
+
+}// Hxtool
 
