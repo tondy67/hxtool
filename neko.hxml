@@ -4,8 +4,8 @@
 -lib hscript
 -D hscriptPos
 -D haxeJSON
--neko bin/hxtool.n
--cmd cd bin
+-neko bin/neko/hxtool.n
+-cmd cd bin/neko
 -cmd nekotools boot hxtool.n
--cmd ./hxtool ../samples/scripts/script.hxs
+-cmd ./hxtool ../../samples/script.hxs
 

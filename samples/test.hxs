@@ -1,0 +1,14 @@
+#!/bin/hxtool
+//
+echo("test:","red");print();
+var dir = "ttt";
+mkdir(dir);
+var dirs = ls(dir,"R"); 
+var i = 0;
+for(f in dirs){
+	i++;
+	print(i+": "+f,"blue");
+}
+
+var line = read();
+print(line);

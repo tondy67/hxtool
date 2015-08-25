@@ -24,11 +24,7 @@ long_line_column=72
 
 [files]
 current_page=0
-FILE_NAME_0=5213;Haxe;0;EUTF-8;1;1;0;%2Fhome%2Ftondy%2Fdev%2Fhxtool%2Fsrc%2FSH.hx;0;4
-FILE_NAME_1=534;Haxe;0;EUTF-8;1;1;0;%2Fhome%2Ftondy%2Fdev%2Fabv%2Fabv%2Fsys%2Fcpp%2FAM.hx;0;4
-FILE_NAME_2=45;Haxe;0;EUTF-8;1;1;0;%2Fhome%2Ftondy%2Fdev%2Fabv%2Fabv%2Fsys%2Fcpp%2FST.hx;0;4
-FILE_NAME_3=0;Haxe;0;EUTF-8;1;1;0;%2Fhome%2Ftondy%2Fdev%2Fhxtool%2Fsrc%2FHxtool.hx;0;4
-FILE_NAME_4=488;Haxe;0;EUTF-8;1;1;0;%2Fhome%2Ftondy%2Fdev%2Fhxtool%2Fsamples%2Fscript.hxs;0;4
+FILE_NAME_0=963;Haxe;0;EUTF-8;1;1;0;%2Fhome%2Ftondy%2Fdev%2Fhxtool%2Fsrc%2FHxtool.hx;0;4
 
 [VTE]
 last_dir=/home/tondy/dev/hxtool
@@ -47,3 +43,8 @@ EX_01_WD=
 NoneFT_00_LB=Build NEKO
 NoneFT_00_CM=haxe neko.html
 NoneFT_00_WD=%p
+
+[editor]
+line_wrapping=false
+line_break_column=72
+auto_continue_multiline=true

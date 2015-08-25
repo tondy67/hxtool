@@ -1,0 +1,10 @@
+-main Hxtool
+-cp src
+-lib abv
+-lib hscript
+-D hscriptPos
+-D haxeJSON
+-cpp bin/cpp
+-cmd cd bin/cpp
+-cmd ./Hxtool ../../samples/script.hxs
+

@@ -6,20 +6,20 @@ import abv.AM;
 import abv.io.SH;
 
 using abv.lib.TP;
-using abv.lib.CR;
+using abv.lib.CC;
 using abv.sys.ST;
 
 class Hxtool extends AM{
 
 	public function new()
 	{
-		AM.verbose = CR.INFO;
+		AM.verbose = INFO;
 		super(); 
 
 		if(AM.args.length > 0){
 			parse();
 		}else{
-			CR.print(CR.INFO+help());
+			CC.print(INFO+help());
 			AM.exit();
 		}
 
@@ -55,7 +55,7 @@ class Hxtool extends AM{
 	public static function main() 
 	{
  		var app = new Hxtool();
-//		CR.printLog();
+//		CC.printLog();
 	}// main()
 
 }// Hxtool
