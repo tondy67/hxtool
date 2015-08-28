@@ -24,14 +24,14 @@ long_line_column=72
 
 [files]
 current_page=0
-FILE_NAME_0=963;Haxe;0;EUTF-8;1;1;0;%2Fhome%2Ftondy%2Fdev%2Fhxtool%2Fsrc%2FHxtool.hx;0;4
+FILE_NAME_0=79;Haxe;0;EUTF-8;1;1;0;%2Fhome%2Ftondy%2Fdev%2Fhxtool%2Fsrc%2FHxtool.hx;0;4
 
 [VTE]
 last_dir=/home/tondy/dev/hxtool
 
 [build-menu]
 HaxeFT_00_LB=_Compile
-HaxeFT_00_CM=haxe  neko.hxml
+HaxeFT_00_CM=haxe  cpp.hxml
 HaxeFT_00_WD=%p
 filetypes=Haxe;None;
 EX_00_LB=_Execute
@@ -43,6 +43,9 @@ EX_01_WD=
 NoneFT_00_LB=Build NEKO
 NoneFT_00_CM=haxe neko.html
 NoneFT_00_WD=%p
+HaxeFT_01_LB=Build
+HaxeFT_01_CM=haxe  neko.hxml
+HaxeFT_01_WD=%p
 
 [editor]
 line_wrapping=false

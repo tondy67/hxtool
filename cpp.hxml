@@ -1,6 +1,7 @@
+-cmd echo build hxtool
 -main Hxtool
+-cp ../abv
 -cp src
--lib abv
 -lib hscript
 -D hscriptPos
 -D haxeJSON

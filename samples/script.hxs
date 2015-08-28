@@ -8,6 +8,8 @@ function update()
 //clear();
 print("Start script.. .");
 print("Platform: "+uname());
+print(ls());
+rm("ttt","r");
 var d = "това е toto";
 var sw = 5;
 switch(sw){

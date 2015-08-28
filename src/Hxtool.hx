@@ -13,7 +13,7 @@ class Hxtool extends AM{
 
 	public function new()
 	{
-		AM.verbose = INFO;
+		AM.verbose = DEBUG;
 		super(); 
 
 		if(AM.args.length > 0){
