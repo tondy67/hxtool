@@ -30,7 +30,7 @@ on windows:
 	
 and then you can use it everywhere...
 	
-	$ hxtool your-script.hxs
+	> hxtool your-script.hxs
 	
 or if you want to make *.hxs scripts executables
 
@@ -43,9 +43,11 @@ the 1st line of your-script.hxs must be "#!/bin/hxtool" and ...
 	
 on windows:
 
+width right click your-script.hxs, select in Properties->Change "C:\HaxeToolkit\haxe\hxtool.exe"
+
 download & run [filetypesman](http://www.nirsoft.net/utils/file_types_manager.html)
 
-search for ".hxs" extension, highlight it and with right mouse click select "Edit selected action"
+search for ".hxs" extension, highlight it and with right click select "Edit selected action"
 and in "command-line" field put "C:\HaxeToolkit\haxe\hxtool.exe" "%1" "%2" "%3"  "%4"
 
 
