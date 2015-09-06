@@ -5,9 +5,9 @@ package;
 import abv.AM;
 import abv.io.SH;
 
-using abv.lib.TP;
+using abv.ds.TP;
 using abv.lib.CC;
-using abv.sys.ST;
+using abv.ST;
 
 class Hxtool extends AM{
 

@@ -1,3 +1,4 @@
+
 [file_prefs]
 final_new_line=true
 ensure_convert_new_lines=true
@@ -14,7 +15,7 @@ indent_mode=2
 
 [project]
 name=hxtool
-base_path=/home/tondy/dev/hxtool/
+base_path=C:\\dev\\hxtool
 description=
 file_patterns=*.hx,;*.css,;*.xml,;*.txt,;*.hxml;
 
@@ -23,8 +24,11 @@ long_line_behaviour=1
 long_line_column=72
 
 [files]
-current_page=0
-FILE_NAME_0=79;Haxe;0;EUTF-8;1;1;0;%2Fhome%2Ftondy%2Fdev%2Fhxtool%2Fsrc%2FHxtool.hx;0;4
+current_page=2
+FILE_NAME_0=125;Haxe;0;EUTF-8;1;1;0;C%3A%5Cdev%5Chxtool%5Csrc%5CHxtool.hx;0;4
+FILE_NAME_1=58;Haxe;0;EUTF-8;1;1;0;C%3A%5Cdev%5Cabv%5Cabv%5Csys%5Ccpp%5CAM.hx;0;4
+FILE_NAME_2=4311;Haxe;0;EUTF-8;1;1;0;C%3A%5Cdev%5Cabv%5Cabv%5Cio%5CSH.hx;0;4
+FILE_NAME_3=196;Haxe;0;EUTF-8;1;1;0;C%3A%5Cdev%5Cabv%5Cabv%5Cds%5CTextProcessing.hx;0;4
 
 [VTE]
 last_dir=/home/tondy/dev/hxtool
