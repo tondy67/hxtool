@@ -1,0 +1,5 @@
+-main App
+-cp ../../abv
+-lib hscript
+-resource "script.hxs"
+-neko script.n

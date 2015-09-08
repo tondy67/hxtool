@@ -1,0 +1,3 @@
+print("Convert to neko exe:");
+print("$ nekotools boot script.n");
+print("$ ./script");

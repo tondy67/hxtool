@@ -23,5 +23,5 @@ print(exec("ls"));
 echo(d+"\n");
 print(pwd());
 print(args[0]);
-print(T.length("tondy"));
-print(T.split("t g f d"," "));
+print(TP.length("tondy"));
+print(TP.split("t g f d"," "));
