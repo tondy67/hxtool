@@ -1,7 +1,0 @@
-haxe3=1
-haxeJSON=1
-haxe_ver=3.2
-hscript=2.0.4
-hscriptPos=1
-hxcpp_api_level=321
-hxcpp=/usr/share/haxelib/hxcpp/3,2,81/

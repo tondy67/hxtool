@@ -23,8 +23,10 @@ long_line_behaviour=1
 long_line_column=72
 
 [files]
-current_page=0
-FILE_NAME_0=0;Haxe;0;EUTF-8;1;1;0;%2Fhome%2Ftondy%2Fdev%2Fhxtool%2Fsrc%2FHxtool.hx;0;4
+current_page=2
+FILE_NAME_0=157;Haxe;0;EUTF-8;1;1;0;%2Fhome%2Ftondy%2Fdev%2Fhxtool%2Fsrc%2FHxtool.hx;0;4
+FILE_NAME_1=490;Haxe;0;EUTF-8;1;1;0;%2Fhome%2Ftondy%2Fdev%2Fhxtool%2Fboot%2FApp.hx;0;4
+FILE_NAME_2=0;Haxe;0;EUTF-8;1;1;0;%2Fhome%2Ftondy%2Fdev%2Fabv%2Fabv%2Fio%2FSH.hx;0;4
 
 [VTE]
 last_dir=/home/tondy/dev/hxtool

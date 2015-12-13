@@ -10,26 +10,27 @@ using abv.lib.CC;
 using abv.ST;
 
 class Hxtool extends AM{
-
-	public function new()
+	
+	public function new(id:String)
 	{
 		AM.verbose = DEBUG;
-		super(); 
+		super(id); 
+	}// new()
 
-		if(AM.args.length > 0){
+	override function create()
+	{
+		if(args.length > 0){
 			parse();
 		}else{
 			CC.print(INFO+help());
-			AM.exit();
+			exit();
 		}
-
-	}// new()
-
+	}// create()
+	
 	function parse()
 	{
-		if(AM.args[0].good()){
-			var path = AM.args[0]; 
-//			if(args[1].good())path = args[1] + path;  trace(args);
+		if(args[0].good()){
+			var path = args[0]; 
 			var script = path.open(); 
 			var lines = script.splitt("\n");
 			var tmp = new Array<String>();
@@ -38,13 +39,13 @@ class Hxtool extends AM{
 			}
 			script = tmp.join("\n");  
 			if(script.good("err: no script")){ 
-				SH.args = AM.args;
+				SH.args = args;
 				try SH.execute(script) catch(m:Dynamic){trace(m);}
 			}
 		}	
 	}// parse()
 
-	override function help(opt="")
+	function help(opt="")
 	{
 		var r = 'Usage:\n hxtool script.hxs';
 
@@ -54,7 +55,7 @@ class Hxtool extends AM{
 
 	public static function main() 
 	{
- 		var app = new Hxtool();
+ 		var app = new Hxtool("hxtool");
 //		CC.printLog();
 	}// main()
 
